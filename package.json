@@ -1,0 +1,17 @@
+{
+  "name": "ui-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-jest": "^25.1.0",
+    "chalk": "^3.0.0",
+    "jest": "^25.1.0",
+    "table": "^5.4.6"
+  }
+}
