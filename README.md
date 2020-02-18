@@ -4,10 +4,19 @@ Welcome challenger, to the formidable JS Challenge. Here you will test your skil
 
 ## Installation
 
-- Install `yarn` to get things going
-- run `$ yarn` to install the packages
-- run `$ yarn test` to run the challenge once
-- run `$ yarn test --watchAll` to keep the challenge running while you edit
+Install `yarn` to get things going
+
+```bash
+  $ yarn # to install the packages
+```
+
+## Usage
+
+```bash
+  $ yarn test # to run the challenge once
+
+  $ yarn test --watchAll # to keep the challenge running whilst you edit
+```
 
 
 ## Rules
