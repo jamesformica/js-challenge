@@ -1,10 +1,10 @@
 module.exports = {
-  reporters: [`<rootDir>/emptyReporter.js`],
+  reporters: [`<rootDir>/setup/setupReporter.js`],
   transform: {},
   setupFilesAfterEnv: [
-    `<rootDir>/setupReporter.js`,
+    `<rootDir>/setup/setupListener.js`,
   ],
   setupFiles: [
-    `<rootDir>/setupChallenge.js`
+    `<rootDir>/setup/setupChallenge.js`
   ]
 }

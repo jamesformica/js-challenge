@@ -1,11 +1,10 @@
-const Logger = require('./logger')
+const Logger = require('./setupLogger')
 
 // const whiteSpaceRegex = /\n|\r|\t| /g
 
 const challenge = (challenge, callback) => {
   const { index, description, input, expected } = challenge
   const code = callback.toString()
-  // console.log('👌', code)
 
   Logger.addTest(index, description, code.length, code)
 

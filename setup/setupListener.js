@@ -1,4 +1,4 @@
-const Logger = require('./logger')
+const Logger = require('./setupLogger')
 
 const reporter = {
   specDone: Logger.addResultToTest,
