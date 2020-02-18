@@ -7,15 +7,15 @@ Welcome challenger, to the formidable JS Challenge. Here you will test your skil
 Install `yarn` to get things going
 
 ```bash
-  $ yarn # to install the packages
+  $ yarn #to install the packages
 ```
 
 ## Usage
 
 ```bash
-  $ yarn test # to run the challenge once
+  $ yarn test #to run the challenge once
 
-  $ yarn test --watchAll # to keep the challenge running whilst you edit
+  $ yarn test --watchAll #to keep the challenge running whilst you edit
 ```
 
 
