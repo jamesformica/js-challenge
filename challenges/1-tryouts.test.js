@@ -57,8 +57,8 @@ challenge({
 
 /**
  * This challenge requires you to loop through an array of
- * 2 digit numbers and retrun whether the digits are larger
- * in their current order, or if they were swapped around. E.g.
+ * 2 digit numbers and decide whether the number is larger
+ * than if the digits were reversed. E.g.
  * 41 > 14 = true
  * 27 < 72 = false
  */
@@ -83,7 +83,7 @@ challenge({
  */
 challenge({
   index: 'challenge 5',
-  description: 'Sum all digits upto the input value',
+  description: 'Sum all digits up to the input value',
   input: [4, 13, 600],
   expected: [10, 91, 180300],
 }, (input) => {
