@@ -70,3 +70,22 @@ challenge({
 }, (input) => {
   // code here
 })
+
+
+
+
+
+/**
+ * This challenge requires you to add up all the numbers from
+ * 1 to the input number, returning the sum for each item in
+ * the array. For example, the first item in the array is 4
+ * then you should return 10 because 1 + 2 + 3 + 4 = 10.
+ */
+challenge({
+  index: 'challenge 5',
+  description: 'Sum all digits upto the input value',
+  input: [4, 13, 600],
+  expected: [10, 91, 180300],
+}, (input) => {
+  // code here
+})
