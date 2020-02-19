@@ -7,6 +7,15 @@ function tip(from, to, why) {
 
 class EmptyReporter {
   onRunComplete(_, results) {
+    // check for compilation errors first
+    for (var i = 0; i < results.testResults.length; i++) {
+      if (!!results.testResults[i].testExecError) {
+        console.log(results.testResults[i].testExecError)
+        return
+      }
+    }
+
+    // output all failing test error messages
     if (results.numFailedTests > 0) {
       for(var i = 0; i < results.testResults.length; i ++) {
         var testFileResults = results.testResults[i].testResults;
