@@ -9,8 +9,10 @@ class EmptyReporter {
   onRunComplete(_, results) {
     // check for compilation errors first
     for (var i = 0; i < results.testResults.length; i++) {
-      if (!!results.testResults[i].testExecError) {
-        console.log(results.testResults[i].testExecError)
+      var error = results.testResults[i].testExecError
+      var failureMessage = results.testResults[i].failureMessage
+      if (!!error && failureMessage.indexOf('Your test suite must contain at least one test.') === -1) {
+        console.log(error)
         return
       }
     }
